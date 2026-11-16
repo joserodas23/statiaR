@@ -1,0 +1,17 @@
+Package: statiaR
+Title: Acceso y Etiquetado de Datos de Statia Observa en R
+Version: 0.1.0
+Authors@R: person("Jose Luis", "Rodas Cobos", email = "joserds25@gmail.com", role = c("aut", "cre"))
+Description: Funciones para recuperar las respuestas de encuestas de Statia
+    Observa (Supabase) y pegarles etiquetas de variable y de valor desde el
+    diccionario de instrumentos (observa_diccionario_variables), de forma
+    semejante a bases SPSS importadas con el paquete 'haven'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/joserodas23/statiaR
+BugReports: https://github.com/joserodas23/statiaR/issues
+Imports:
+    httr2,
+    jsonlite
+Config/roxygen2/version: 8.1.1

@@ -1,0 +1,6 @@
+﻿# Generated for statiaR
+export(statia_codebook)
+export(statia_configurar)
+export(statia_datos)
+export(statia_diagnostico)
+export(statia_instrumentos)
